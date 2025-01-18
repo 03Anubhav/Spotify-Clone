@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Spotify - Web Player: Music for everyone</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="utility.css" />
+    <link rel="icon" type="image/x-icon" href="spotify.svg">
+
+  </head>
+  <body>
+    <div class="container flex bg-black">
+      <div class="left bg-black rounded m-1 p-1 ">
+        <div class="home bg-grey rounded m-1 p-1">
+          <div class="close">
+            <img class="invert" src="close.svg" alt="">
+          </div>
+          <div class="logo">
+            <img src="logo.svg" class="invert" alt="" /><b>Spotify</b>
+          </div>
+          <ul>
+            <li><img class="invert" src="home.svg" alt="home" />Home</li>
+            <li><img class="invert" src="search.svg" alt="search" />Search</li>
+          </ul>
+        </div>
+
+        <div class="library bg-grey rounded m-1 p-1">
+          <div class="heading">
+            <img src="playlist.svg" alt="Playlist" class="invert" />
+            <h2>Your Library</h2>
+          </div>
+          
+          <div class="songList">
+            <ul>
+              
+            </ul>
+          </div>
+
+
+          <div class="footer">
+            <div>
+              <a href="https://www.spotify.com/in-en/legal/">Legal</a>
+            </div>
+            <!-- <div>
+              <a href="https://www.spotify.com/in-en/safetyandprivacy/"
+                >Safety &amp; Privacy Center</a
+              >
+            </div> -->
+            <div>
+              <a href="https://www.spotify.com/in-en/legal/privacy-policy/"
+                >Privacy Policy</a
+              >
+            </div>
+            <div>
+              <a href="https://www.spotify.com/in-en/legal/cookies-policy/"
+                >Cookies</a
+              >
+            </div>
+            <div>
+              <a href="https://www.spotify.com/in-en/legal/privacy-policy/#s3"
+                >About Ads</a
+              >
+            </div>
+            <div>
+              <a href="https://www.spotify.com/in-en/accessibility/"
+                >Accessibility</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="right bg-grey rounded m-1 p-1">
+        <div class="header">
+          <div class="nav">
+            <img src="hamburger.svg" class="invert hamburger">
+            <img src="left_arrow.svg" >
+            <img src="right_arrow.svg" >
+
+          </div>
+          <div class="buttons">
+            <button class="signupbtn">Sign Up</button>
+            <button class="loginbtn">Log In</button>
+          </div>
+        </div>
+
+        <div class="spotifyPlaylist">
+          <h1>Spotify Playlist</h1>
+
+          <div class="cardContainer">
+            <div data-folder="fresh" class="card">
+              <div class="play">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="50" height="50">
+                  <!-- Green Circle Background -->
+                  <circle cx="12" cy="12" r="12" fill="green" />
+                  <!-- Play Button (Black Triangle) -->
+                  <path d="M7.75194 5.43872L18.2596 11.5682C18.4981 11.7073 18.5787 12.0135 18.4396 12.252C18.3961 12.3265 18.3341 12.3885 18.2596 12.432L7.75194 18.5615C7.51341 18.7006 7.20725 18.62 7.06811 18.3815C7.0235 18.305 7 18.2181 7 18.1296V5.87061C7 5.59446 7.22386 5.37061 7.5 5.37061C7.58853 5.37061 7.67547 5.39411 7.75194 5.43872Z" fill="black"/>
+                </svg>
+              </div>
+              
+              <!-- <img src="" alt=""> -->
+              <img aria-hidden="false" draggable="false" loading="lazy" src="https://i.scdn.co/image/ab67616d00001e026404721c1943d5069f0805f3" data-testid="card-image" alt="" class="mMx2LUixlnN_Fu45JpFB yMQTWVwLJ5bV8VGiaqU3 yOKoknIYYzAE90pe7_SE Yn2Ei5QZn19gria6LjZj">
+              <h2>Aashiqi 2</h2>
+              <p>Diljit Singh</p>
+            </div>
+
+            <div data-folder="atpata" class="card">
+              <div class="play">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="50" height="50">
+                  <!-- Green Circle Background -->
+                  <circle cx="12" cy="12" r="12" fill="green" />
+                  <!-- Play Button (Black Triangle) -->
+                  <path d="M7.75194 5.43872L18.2596 11.5682C18.4981 11.7073 18.5787 12.0135 18.4396 12.252C18.3961 12.3265 18.3341 12.3885 18.2596 12.432L7.75194 18.5615C7.51341 18.7006 7.20725 18.62 7.06811 18.3815C7.0235 18.305 7 18.2181 7 18.1296V5.87061C7 5.59446 7.22386 5.37061 7.5 5.37061C7.58853 5.37061 7.67547 5.39411 7.75194 5.43872Z" fill="black"/>
+                </svg>
+              </div>
+              
+              <!-- <img src="" alt=""> -->
+              <img aria-hidden="false" draggable="false" loading="lazy" src="https://i.scdn.co/image/ab67616d00001e026404721c1943d5069f0805f3" data-testid="card-image" alt="" class="mMx2LUixlnN_Fu45JpFB yMQTWVwLJ5bV8VGiaqU3 yOKoknIYYzAE90pe7_SE Yn2Ei5QZn19gria6LjZj">
+              <h2>Aashiqi 2</h2>
+              <p>Diljit Singh</p>
+            </div>
+
+            <div class="card">
+              <div class="play">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="50" height="50">
+                  <!-- Green Circle Background -->
+                  <circle cx="12" cy="12" r="12" fill="green" />
+                  <!-- Play Button (Black Triangle) -->
+                  <path d="M7.75194 5.43872L18.2596 11.5682C18.4981 11.7073 18.5787 12.0135 18.4396 12.252C18.3961 12.3265 18.3341 12.3885 18.2596 12.432L7.75194 18.5615C7.51341 18.7006 7.20725 18.62 7.06811 18.3815C7.0235 18.305 7 18.2181 7 18.1296V5.87061C7 5.59446 7.22386 5.37061 7.5 5.37061C7.58853 5.37061 7.67547 5.39411 7.75194 5.43872Z" fill="black"/>
+                </svg>
+              </div>
+              
+              <!-- <img src="" alt=""> -->
+              <img aria-hidden="false" draggable="false" loading="lazy" src="https://i.scdn.co/image/ab67616d00001e026404721c1943d5069f0805f3" data-testid="card-image" alt="" class="mMx2LUixlnN_Fu45JpFB yMQTWVwLJ5bV8VGiaqU3 yOKoknIYYzAE90pe7_SE Yn2Ei5QZn19gria6LjZj">
+              <h2>Aashiqi 2</h2>
+              <p>Diljit Singh</p>
+            </div>
+            
+            <div class="card">
+              <div class="play">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="50" height="50">
+                  <!-- Green Circle Background -->
+                  <circle cx="12" cy="12" r="12" fill="green" />
+                  <!-- Play Button (Black Triangle) -->
+                  <path d="M7.75194 5.43872L18.2596 11.5682C18.4981 11.7073 18.5787 12.0135 18.4396 12.252C18.3961 12.3265 18.3341 12.3885 18.2596 12.432L7.75194 18.5615C7.51341 18.7006 7.20725 18.62 7.06811 18.3815C7.0235 18.305 7 18.2181 7 18.1296V5.87061C7 5.59446 7.22386 5.37061 7.5 5.37061C7.58853 5.37061 7.67547 5.39411 7.75194 5.43872Z" fill="black"/>
+                </svg>
+              </div>
+              
+              <!-- <img src="" alt=""> -->
+              <img aria-hidden="false" draggable="false" loading="lazy" src="https://i.scdn.co/image/ab67616d00001e026404721c1943d5069f0805f3" data-testid="card-image" alt="" class="mMx2LUixlnN_Fu45JpFB yMQTWVwLJ5bV8VGiaqU3 yOKoknIYYzAE90pe7_SE Yn2Ei5QZn19gria6LjZj">
+
+
+              <h2>Aashiqi 2</h2>
+              <p>Diljit Singh</p>
+            </div>
+          </div>
+
+          <div class="playbar">
+            <div class="seekbar">
+              <div class="circle">
+
+              </div>
+            </div>
+
+            <div class="songDisplay">
+              <div class="songInfo">
+                
+              </div>
+              
+              <div class="songButtons">
+                <img id="previous" src="previous_song.svg" alt="">
+                <img id="play" src="play.svg" alt="" >
+                <img id="next" src="next_song.svg" alt="" >
+              </div>
+                
+              <div class="timevol">
+                <div class="songTime">
+                  
+                </div>
+                <div class="volume">
+                  <img src="volume.svg" alt="">
+                  <div class="range">
+                    <input type="range">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
